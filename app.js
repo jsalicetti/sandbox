@@ -1,22 +1,10 @@
+const mainEl = document.querySelector("main");
 
-{
-    "name": "alab-dom-manipulation-part-one",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.html",
-    "scripts": {
-      "start": "parcel index.html --open",
-      "build": "parcel build index.html"
-    },
-    "dependencies": {
-      "parcel-bundler": "^1.6.1"
-    },
-    "devDependencies": {
-      "@babel/core": "7.2.0",
-      "typescript": "4.4.4"
-    },
-    "resolutions": {
-      "@babel/preset-env": "7.13.8"
-    },
-    "keywords": []
-  }
+console.log(mainEl);
+
+
+// set the background color
+mainEl.style.background = "var(--main-bg)";
+
+// set the content of mainEl to an h1
+mainEl.innerHTML = "<h1>DOM Manipulation</h1>";
