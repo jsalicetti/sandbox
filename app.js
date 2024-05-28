@@ -37,4 +37,32 @@ const menuLinks = [
     console.log(linkObj);
   });
 
+  // create an A element
+  menuLinks.forEach((linkObj) => {
+    //console.log(linkObj);
+    const aEl = document.createElement("a");
+  });
+
+
+  menuLinks.forEach((linkObj) => {
+    //console.log(linkObj);
+    const aEl = document.createElement("a");
+    aEl.setAttribute("href", linkObj.href);
+  });
+
+  menuLinks.forEach((linkObj) => {
+    //console.log(linkObj);
+    const aEl = document.createElement("a");
+    aEl.setAttribute("href", linkObj.href);
+    aEl.textContent = linkObj.text;
+  });
+
+  menuLinks.forEach((linkObj) => {
+    //console.log(linkObj);
+    const aEl = document.createElement("a");
+    aEl.setAttribute("href", linkObj.href);
+    aEl.textContent = linkObj.text;
+    topMenuEl.append(aEl);
+  });
+
   
