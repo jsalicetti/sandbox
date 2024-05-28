@@ -17,3 +17,8 @@ const topMenuEl = document.getElementById("top-menu");
 
 // adjust the height 
 topMenuEl.style.height = "100%";
+
+topMenuEl.style.background = "let(--top-menu-bg)";
+
+topMenuEl.classList.add("flex-around");
+
