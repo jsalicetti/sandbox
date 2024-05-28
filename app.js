@@ -8,3 +8,7 @@ mainEl.style.background = "var(--main-bg)";
 
 // set the content of mainEl to an h1
 mainEl.innerHTML = "<h1>DOM Manipulation</h1>";
+
+// center dom manipulation
+mainEl.classList.add("flex-ctr");
+
