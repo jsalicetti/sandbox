@@ -12,3 +12,8 @@ mainEl.innerHTML = "<h1>DOM Manipulation</h1>";
 // center dom manipulation
 mainEl.classList.add("flex-ctr");
 
+// nav
+const topMenuEl = document.getElementById("top-menu");
+
+// adjust the height 
+topMenuEl.style.height = "100%";
