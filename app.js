@@ -22,3 +22,19 @@ topMenuEl.style.background = "let(--top-menu-bg)";
 
 topMenuEl.classList.add("flex-around");
 
+// Menu data structure
+
+// adding menu buttons
+const menuLinks = [
+    { text: "about", href: "/about" },
+    { text: "catalog", href: "/catalog" },
+    { text: "orders", href: "/orders" },
+    { text: "account", href: "/account" },
+  ];
+
+  // iterate over the entire menuLinks array
+  menuLinks.forEach((linkObj) => {
+    console.log(linkObj);
+  });
+
+  
